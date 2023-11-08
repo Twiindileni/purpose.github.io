@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007BFF;
+    color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+}
+
+.user-profile {
+    margin-bottom: 20px;
+}
+
+.user-profile img {
+    max-width: 30px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+#traffic-fines li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    list-style: none;
+    position: relative;
+}
+
+.pay-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.pay-button:hover {
+    background-color: #0056b3;
+}
